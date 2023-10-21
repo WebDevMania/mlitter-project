@@ -1,6 +1,6 @@
 import { HTTP_METHOD } from "./httpMethods"
 
-const BASE_URL = "http://localhost:3000/api/"
+const BASE_URL = "https://mlitter-project-git-main-webdevmania.vercel.app/api/"
 
 async function get(url, headers = {}) {
     const res = await fetch(BASE_URL + url, {

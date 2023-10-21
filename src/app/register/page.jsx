@@ -61,7 +61,7 @@ const Register = () => {
             </div>
             <ToastContainer />
             <span className={classes.loginMessage}>
-                Don&apost have an account?
+                Don&apos;t have an account?
                 <Link href='/login' className={classes.login}>
                     Login
                 </Link>
